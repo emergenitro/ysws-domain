@@ -7,7 +7,7 @@ Create and publish your own website, and we'll gift you a custom domain for free
 Creating a unique website helps you:
 
 - **Express Creativity**: Showcase your unique ideas and design skills.
-- **Learn Web Development**: Gain hands-on experience with HTML, CSS, and JavaScript.
+- **Learn Web Development**: Gain hands-on experience with HTML, CSS, JavaScript, or any frontend and backend you want!
 - **Build a Digital Portfolio**: Create a project to add to your portfolio.
 
 We understand finances might be a barrier to setup your own website and we don't want that, so, we will pay for your domain!
