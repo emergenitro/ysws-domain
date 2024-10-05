@@ -77,4 +77,4 @@ Ensure your project includes:
 - Ensure all files are correctly named and in the right structure.
 - Check for feedback on your pull request and address any changes needed.
 
-For assistance, reach out to us at support@giistech.club!
+For assistance, reach out to us at support@giistech.club! As an add-on, we'll help you set up a free @yourdomain.com email, and help host your website!
