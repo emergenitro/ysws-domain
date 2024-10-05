@@ -1,6 +1,6 @@
 # Welcome to the You Ship, We Ship Initiative! 🚀
 
-Create and publish your own website, and we'll gift you a custom domain! Whether you're a passionate coder or a curious beginner, this is your chance to shine. Follow these steps to upload your website to GitHub and get started.
+Create and publish your own website, and we'll gift you a custom domain for free! Whether you're a passionate coder or a curious beginner, this is your chance to shine. Follow these steps to upload your website to GitHub and get started. 
 
 ## Why Participate?
 
@@ -9,6 +9,8 @@ Creating a unique website helps you:
 - **Express Creativity**: Showcase your unique ideas and design skills.
 - **Learn Web Development**: Gain hands-on experience with HTML, CSS, and JavaScript.
 - **Build a Digital Portfolio**: Create a project to add to your portfolio.
+
+We understand finances might be a barrier to setup your own website and we don't want that, so, we will pay for your domain!
 
 ## How to Upload Your Website
 
