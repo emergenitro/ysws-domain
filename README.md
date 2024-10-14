@@ -1,6 +1,6 @@
 # Welcome to the You Ship, We Ship Initiative! 🚀
 
-Create and publish your own website, and we'll gift you a custom domain for free! Whether you're a passionate coder or a curious beginner, this is your chance to shine. Follow these steps to upload your website to GitHub and get started. Before we begin, be sure to star ⭐ the repo! 
+Create and publish your own website, and we'll gift you a custom domain for free! Whether you're a passionate coder or a curious beginner, this is your chance to shine. Follow these steps to upload your website to GitHub and get started. Before we begin, **be sure to star ⭐ the repo**! 
 
 ## Why Participate?
 
@@ -68,15 +68,16 @@ Once your pull request is approved, we’ll contact you with your custom domain 
 
 Ensure your project includes:
 
-1. **An Original Theme/Concept**
-2. **Interactive Features**
-3. **Custom Styles with CSS**
-4. **Media Content**
-5. **Original Text Content (200 words min. per page)**
+1. **Interactive Features**
+2. **Custom Styles with CSS**
+3. **Media Content**
+4. **Original Text Content (200 words min. per page)**
 
 ## Troubleshooting
 
 - Ensure all files are correctly named and in the right structure.
 - Check for feedback on your pull request and address any changes needed.
 
-For assistance, reach out to us at support@giistech.club! As an add-on, we'll help you set up a free @yourdomain.com email, and help host your website!
+For assistance, reach out to us at support@giistech.club! As an add-on, we'll help you set up a free @yourdomain.com email, and help host your website (Please meet us physically for the latter)!
+
+Note: GIIS Tech Club has the right to reject any YSWS application upon their discretion
