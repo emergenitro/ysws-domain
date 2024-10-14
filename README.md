@@ -80,4 +80,4 @@ Ensure your project includes:
 
 For assistance, reach out to us at support@giistech.club! As an add-on, we'll help you set up a free @yourdomain.com email, and help host your website (Please meet us physically for the latter)!
 
-Note: GIIS Tech Club has the right to reject any YSWS application upon their discretion
+Note: GIIS Tech Club has the right to reject any YSWS application at its discretion. We also pay for only a limited depending on how our budget is set.
