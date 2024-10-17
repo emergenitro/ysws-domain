@@ -1,0 +1,37 @@
+.cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.cursor--small {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    z-index: 999;
+    background: #f1f1f1;
+    transition: width 0.3s, height 0.3s, opacity 0.3s, margin 0.3s;
+}
+
+.cursor--big {
+    width: 24px;
+    height: 24px;
+    border: 0.75px #f1f1f1 solid;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    z-index: 999;
+}
+
+@media screen and (max-width: 1024px) {
+    .cursor--big,
+    .cursor--small {
+        visibility: hidden;
+    }
+}
+
+body {
+    background-color: #fff;
+    cursor: none;
+}
