@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <!--Meta Tags-->
+    <meta name="description" content="Karthik Sankar is a student who is aspiring to become a developer, unsure of which type of dev :(, and he hopes to see success in everyone's future.">
+    <meta name="keywords" content="Karthik, KSankar, Sankar, KarthikSankar, Karthik Sankar, Karthik_Sankar, SankarKarthik, Sankar_Karthik, KS, SKarthik, KarthikS, Karthik S, Developer, Website Development, WebDev, WebsiteDesign, Website Design, web, design, dev, development, website, designer">
+    <meta name="author" content="Karthik Sankar • Website Designer">
+</head>
+
+<body onload="theeFunction();">
+    <div id="preloader">
+        <div class="linepreloader"></div>
+        <div class="tinycoloredline"></div>
+        <div class="split spl1"></div>
+        <div class="split spl2"></div>
+    </div>
+    <main class="page">
+        <div class="page__inner">
+            <div class="cursor cursor--small" id="click"></div>
+            <div class="cursor cursor--big" id="clickBig"></div>
+        </div>
+    </main>
+    <div id="wrapper">
+        <nav class="meh">
+            <div class="logo">
+                <h4>Karthik</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#me">About</a></li>
+                <li><a href="#portfolio">Services</a></li>
+            </ul>
+            <div class="topnav">
+                <div class="burger" onclick="myFunction()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <div id="myLinks">
+                <a href="#">Home</a>
+                <a href="#me">About</a>
+                <a href="#portfolio">Services</a>
+            </div>
+        </nav>
+        <div class="wrapper-myservices meh">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10 main-heading">
+                        <h1 id="karthik">
+                            Karthik Sankar
+                        </h1>
+                        <p class="success">
+                            Hello, I am a developer and full-time student based in Singapore!
+                        </p>
+                        <span class="kk"></span>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="intro-box" id="me">
+                <div class="intro-text">
+                    <h1 class="intro-heading-none intro-heading">
+                        Heyo! I'm Karthik
+                    </h1>
+                    <p class="intro-para">
+                        Heyo! My name is Karthik Sankar and I am a student, currently residing in Singapore. I am into a variety of programming & markup languages, including C#, C++, HTML, CSS, JS, Java, PHP, Python (quite a few modules) and MySQL (not a language). I was also
+                        attending formal coding courses for the past 4 years. However, after graduation at the aforementioned course, I have successfully participated and won national, interschool and asia-pacific competitions. Currently, I am looking for long-term projects to work on.
+                    </p>
+                </div>
+            </div>
+            <div class="myservices" id="services">
+                <h1 class="my-heading">
+                    More Info
+                </h1>
+                <div class="break"></div>
+                <div class="service-box" data-aos="fade-right" data-aos-duration="750">
+                    <div class="service-heading">
+                        <h1>Web Development</h1>
+                    </div>
+                    <div class="service-text">
+                        <p>
+                            I love website development. It helps me learn a lot about many different languages. Websites are a crucial part of the internet. Hence, I love it. Stack Overflow taught me how to code websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-box" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">
+                    <div class="service-heading">
+                        <h1>Game Development</h1>
+                    </div>
+                    <div class="service-text">
+                        <p>
+                            I am extremely familiar with Game Development and I am fairly good with it. I have used PyGame (Python), Unity (C#), JavaScript (with HTML), Scratch, Java and even C++! :D
+                        </p>
+                    </div>
+                </div>
+                <div class="service-box" data-aos="fade-left" data-aos-duration="750" data-aos-delay="1000">
+                    <div class="service-heading">
+                        <h1>
+                            Software Development
+                        </h1>
+                    </div>
+                    <div class="service-text">
+                        <p>
+                            I believe that Software Development is one of the most important types of development. Without software development, you would not be able to have other types of development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- <h1 class="my-heading">
+                Work In<br>Progress
+            </h1>
+            <div class="work-in-progress">
+                <h1 class="wip-heading">GIIS Progressio 2023</h1>
+                <p class="wip-para">A coding initiative, following the successful GIIS Progressio 2022. It is a coding competition in which students can use Python, Scratch or any language to code something and solve the problem statement. This often uses a real-world problem as the problem statement, which improves participants' critical thinking. </p><br>
+                <h1 class="wip-heading">Library Management System</h1>
+                <p class="wip-para">Costs put into library management systems are unbelievably high. However, with this, you can simply scan your book and through Natural Language Processing (NLP) and Machine Learning, the book will be detected and the book will automatically be put under loaned or returned.</p>
+            </div> -->
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave"><path fill="#121212" fill-opacity="1" d="M0,128L60,128C120,128,240,128,360,160C480,192,600,256,720,240C840,224,960,128,1080,101.3C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        <svg width="1052" height="1052" viewBox="0 0 258 258" fill="none" xmlns="http://www.w3.org/2000/svg" class="circle-1 circle">
+			<path d="M258 129C258 200.245 200.245 258 129 258C57.7553 258 0 200.245 0 129C0 57.7553 57.7553 0 129 0C200.245 0 258 57.7553 258 129ZM27.6836 129C27.6836 184.956 73.0445 230.316 129 230.316C184.956 230.316 230.316 184.956 230.316 129C230.316 73.0445 184.956 27.6836 129 27.6836C73.0445 27.6836 27.6836 73.0445 27.6836 129Z" fill="white"/>
+		</svg>
+        <div class="MyPortfolio" id="portfolio">
+            <h1 class="my-heading" style="color: #fff;">
+                My Work
+            </h1>
+            <div class="my-work">
+                <div class="container">
+                    <div class="row row-1">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3 oa">
+                            <img class="past-work-img" src="img/horn.png" data-aos="fade-right" data-aos-duration="750">
+                        </div>
+                        <div class="col-sm-6 duh">
+                            <p class="text-image link3" data-aos="fade-left" data-aos-duration="900" data-aos-delay="500">
+                                SaveTheRhinos. An initiative led by me (as the President), along with my friends. We created this website as a way to promote the rapid loss of species (in the current case, Rhinos). Link: <a target="_blank" href="https://str.syntaxerrorfound.me/">Here</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3 oa">
+                            <img class="past-work-img" src="img/logo.png" data-aos="fade-right" data-aos-duration="900">
+                        </div>
+                        <div class="col-sm-6 duh">
+                            <p class="text-image link3" data-aos="fade-left" data-aos-duration="900" data-aos-delay="500">
+                                &lt;EI&gt;CodeCasting. It is a technological initiative made by one of my seniors. However, I helped him by making the website and supporting him in marketing, etc. I am considered as the Student Representative. Link: <a target="_blank"
+                                    href="https://www.eicodecasting.com">Here</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3 oa">
+                            <img class="past-work-img" src="img/finalprogressio.png" style="border-radius: 50%;" data-aos="fade-right" data-aos-duration="900">
+                        </div>
+                        <div class="col-sm-6 duh">
+                            <p class="text-image link3" data-aos="fade-left" data-aos-duration="900" data-aos-delay="500">
+                                GIIS Progressio a student-led coding initiative held in GIIS. Following the successful event conducted in 2022, there are plans to push it further in 2023. Link: <a target="_blank" href="https://instagram.com/giisprogressio">Here</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3 oa">
+                            <img class="past-work-img" src="img/3dtronics.png" style="border-radius: 50%;" data-aos="fade-right" data-aos-duration="900">
+                        </div>
+                        <div class="col-sm-6 duh">
+                            <p class="text-image link3" data-aos="fade-left" data-aos-duration="900" data-aos-delay="500">
+                                I am a two-time winner for the national infocomm competition known as 3D-Tronics. Winning 2nd and 1st fastest robot, two consecutive years, was truly a wonderful feat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3 oa">
+                            <img class="past-work-img" src="img/techclublogo.jpg" style="border-radius: 50%;" data-aos="fade-right" data-aos-duration="900">
+                        </div>
+                        <div class="col-sm-6 duh">
+                            <p class="text-image link3" data-aos="fade-left" data-aos-duration="900" data-aos-delay="500">
+                                I have participated in GIIS Hackathon for 4 years, out of which I have won 1st, 2nd, 1st and 1st in the years 2018, 2019, 2020, 2022. I hope to conduct it in the year 2024.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3 oa">
+                            <img class="past-work-img" src="img/cropped-lime-rounded-base@8x.png" style="border-radius: 50%;" data-aos="fade-right" data-aos-duration="900">
+                        </div>
+                        <div class="col-sm-6 duh">
+                            <p class="text-image link3" data-aos="fade-left" data-aos-duration="900" data-aos-delay="500">
+                                I was an intern with Stemly AI from December 2022 till January 2023. It was a wonderful experience where I worked with some of the best minds in the field of AI. I also developed the website for Stemly. Link: <a target="_blank" href="https://stemly.ai/">Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <svg width="1052" height="1052" viewBox="0 0 258 258" fill="none" xmlns="http://www.w3.org/2000/svg" class="circle-2 circle">
+			<path d="M258 129C258 200.245 200.245 258 129 258C57.7553 258 0 200.245 0 129C0 57.7553 57.7553 0 129 0C200.245 0 258 57.7553 258 129ZM27.6836 129C27.6836 184.956 73.0445 230.316 129 230.316C184.956 230.316 230.316 184.956 230.316 129C230.316 73.0445 184.956 27.6836 129 27.6836C73.0445 27.6836 27.6836 73.0445 27.6836 129Z" fill="white"/>
+		</svg>
+        <br>
+        <div class="footer">
+            <p class="copyright">© 2021-22 Karthik Sankar All Rights Reserved</p>
+            <p class="copyright">Designed by Karthik</p>
+            <a href="https://github.com/emergenitro" target="_blank"><img src="img/GitHub-Mark-Light-32px.png"></a>
+            <a href="https://instagram.com/itsthekarthik" target="_blank"><img src="img/Instagram_Glyph_White.png"></a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/scriptTest.js"></script>
+</body>
+
+</html>
